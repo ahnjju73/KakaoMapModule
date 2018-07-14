@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/tv_marker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_0440"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv_marker3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_0440"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv_marker4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_0440"
+        android:gravity="center"
+        android:text="4"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv_marker5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_0440"
+        android:gravity="center"
+        android:text="5+"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv_marker10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_0440"
+        android:gravity="center"
+        android:text="10+"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_marker50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_0440"
+        android:gravity="center"
+        android:text="50+"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_marker100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/img_0440"
+        android:gravity="center"
+        android:text="100+"
+        android:textSize="16sp" />
+</FrameLayout>
+

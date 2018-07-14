@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/img_view"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="판매자 이름"
+        android:textSize="20dp"
+        android:id="@+id/merchant_name"
+        android:layout_toRightOf="@+id/img_view"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="설명"
+        android:textSize="16dp"
+        android:id="@+id/merchant_des"
+        android:layout_toRightOf="@+id/img_view"
+        android:layout_below="@+id/merchant_name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="가격"
+        android:textSize="17dp"
+        android:id="@+id/merchant_price"
+        android:layout_toRightOf="@+id/img_view"
+        android:layout_below="@+id/merchant_des"
+        />
+
+</RelativeLayout>
